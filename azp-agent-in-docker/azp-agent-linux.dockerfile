@@ -71,8 +71,8 @@ RUN sudo apt-get install unzip
 # RUN sudo apt-get install build-dep python-psycopg2
 
 #pip install psycopg2 -y
-# RUN apt-get update
-# RUN sudo apt install maven -y
+RUN apt-get update
+RUN sudo apt install maven -y
 # RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 # RUN sudo apt -y install nodejs
 # RUN node  -v
